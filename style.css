@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Outfit:wght@100..900&display=swap');
 
+/*João Pedro Santos Araujo 3C.10.05.2025*/
+
 :root{
 --verde-creeper: #7CFC00;
 --cinza-pedra: #808080;
@@ -600,3 +602,4 @@ footer{
     justify-content: center;
     justify-items: center;
 }
+
