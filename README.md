@@ -1,4 +1,7 @@
 # Site acessível sobre Minecraft
+## Criador: João Pedro Santos Araujo
+## Turma:  3C
+## Data: 12.08.2025
 ## Sobre
 Refatoração de um site implementando recursos de acessibilidade no HTML, CSS e JS.
 ## Recursos de acessibilidade
@@ -10,4 +13,5 @@ Refatoração de um site implementando recursos de acessibilidade no HTML, CSS e
 - Bootstrap
 - HTML
 - CSS
+
 - JS
