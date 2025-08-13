@@ -1,3 +1,5 @@
+//João Pedro Santos Araujo 3C.12.08.2025//
+
 document.addEventListener('DOMContentLoaded', function() {
     const botaoDeAcessbilidade = document.getElementById('botao-acessibilidade')
     const opçoesDeAcessbilidade = document.getElementById('opçoes-acessibilidade')
@@ -130,6 +132,7 @@ showMobs.forEach((mob) => {
 closeBtn.addEventListener("click", () => {
     popupContainer.classList.remove("active");
 });
+
 
 
 
