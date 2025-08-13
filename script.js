@@ -17,12 +17,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
     aumentaFonteBotao.addEventListener('click', function() {
         tamanhoAtualFonte += 1;
-        document.body.style.fontSize = `${tamanhoAtualFonte}rem`
+        document.body.style.fontSize = `${tamanhoAtualFonte}px`
     })
 
     diminuiFonteBotao.addEventListener('click', function() {
         tamanhoAtualFonte -= 1;
-        document.body.style.fontSize = `${tamanhoAtualFonte}rem`
+        document.body.style.fontSize = `${tamanhoAtualFonte}px`
     })
 
     alternaContraste.addEventListener('click', function(){
@@ -132,6 +132,7 @@ showMobs.forEach((mob) => {
 closeBtn.addEventListener("click", () => {
     popupContainer.classList.remove("active");
 });
+
 
 
 
