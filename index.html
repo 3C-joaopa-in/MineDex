@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MineDex</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/minilogo.png">
+    <script src="https://kit.fontawesome.com/0ce68c22da.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+   <header>
+  <div class="image-popup-container">
+    <img src="img/botaoinformação.png" height="30px" alt="Botão de informação" class="popup-trigger">
+    <div class="popup-message">
+      <p>MineDex é um site informativo de Minecaft criado para ajudar os jogadores que possuem dúvidas para realizarem receitas dentro do jogo e orientá-los sobre mobs. (SITE CRIADO PARA ESTUDOS E APROFUNDAMENTOS NA LINGUAGEM DE PROGRAMAÇÃO, NÃO HÁ NENHUM TIPO DE LUCRO)</p>
+    </div>
+  </div>
+  <div id="acessibilidade" class="menu-acessibilidade">
+    <button id="botao-acessibilidade" class="btn btn-primary fw-bold rotaçao-botao" aria-expanded="false" >Acessibilidade</button>
+    <div id="opçoes-acessibilidade" class="opçoes-acessibilidade apresenta-lista">
+    <button id="aumentar-fonte" class="btn btn-primary fw-bold" aria-label="Aumentar o tamanho da fonte.">A+</button>
+    <button id="diminuir-fonte" class="btn btn-primary fw-bold" aria-label="Diminuir o tamanho da fonte.">A-</button>
+    <button id="alterna-contraste" class="btn btn-primary fw-bold" aria-label="Alterar o contraste da página."><i class="fa-solid fa-star" style="color: #ffffff;"></i></button>
+    </div>
+  </div>
+</header>
+
+    <section class="banner">
+        <a href="#" id="logo"><img src="img/minedex nome.png" alt="Nome do Site" height="120px" /></a>
+    </section>
+
+    <section id="minecraft" class="info" tabindex="0" aria-label="Seção explicativa sobre Minecraft.">
+        <div class="informação-imagens">
+            <div class="galeria-wrapper">
+                <img src="img/galeria.png" alt="Galeria Minecraft" class="galeria" />
+                <img src="img/steve.png" alt="Imagem Sobreposta" class="sobrepor" />
+            </div>
+        </div>
+        <div class="informação">
+            <div class="texto-1-wrapper">
+                <p class="texto-1">
+                    <span>Minecraft</span> é um jogo de construção e aventura em um mundo aberto, onde os jogadores
+                    podem explorar,
+                    minerar
+                    criar e sobreviver. Com gráficos em estilo pixelado, o jogo oferece liberdade total para construir
+                    desde pequenas
+                    casas até cidades inteiras, enfrentando criaturas, coletando recursos e desbravando biomas variados.
+                    Seja sozinho
+                    ou com amigos, Minecraft é um universo sem limites onde a imaginação do jogador define as regras.
+                </p>
+                <img src="img/aspas.png" class="aspas">
+            </div>
+    </section>
+
+    <section id="craftings" class="quote" tabindex="0" aria-label="Seção explicativa sobre Craftings.">
+        <h1 class="craftings__titulo">Craftings</h1>
+        <div class="slider">
+            <div class="conteudo">
+                <div class="item active">
+                    <h1>Bancada de Trabalho</h1>
+                    <div class="des">A Bancada de Trabalho (ou Crafting Table) é um dos blocos mais essenciais do Minecraft. Ela permite que os jogadores criem itens mais complexos do que seria possível no inventário pessoal, expandindo a grade de crafting de 2x2 para 3x3. Com ela, é possível fabricar ferramentas, armas, armaduras, mecanismos de Redstone e outros objetos avançados, como baús, livros e até portais para outras dimensões.</div>
+                </div>
+                <div class="item">
+                    <h1>Fornalha</h1>
+                    <div class="des">A Fornalha (Furnace) é um bloco fundamental para a progressão no Minecraft, sendo essencial para transformar materiais brutos em itens mais úteis. Ela permite fundir minérios, cozinhar alimentos e criar blocos especiais, usando combustíveis como carvão, madeira ou lava.</div>
+                </div>
+                <div class="item">
+                    <h1>Mesa de Encantamento</h1>
+                    <div class="des">A Mesa de Encantamentos (Enchanting Table) é um bloco mágico que permite melhorar equipamentos com efeitos especiais, como proteção, afiação, eficiência e muito mais. Para usá-la, você precisará de experiência (níveis) e Lapis Lazuli como ingrediente.</div>
+                </div>
+                <div class="item">
+                    <h1>Stand de Poção</h1>
+                    <div class="des">O Stand de Poções (Brewing Stand) é usado para criar poções mágicas com efeitos variados, como cura, invisibilidade, força e resistência a danos. Ele funciona com garrafas de água, ingredientes especiais e pó de Blaze como combustível.</div>
+                </div>
+            </div>
+            <div class="imagens">
+                <div class="item active" style="--i: 1">
+                    <a href="#"><img src="img/coisodepoção.png" alt="Stand de Poção"></a>
+                </div>
+                <div class="item" style="--i: 2">
+                    <a href="#"><img src="img/mesadeencantamento.png" alt="Mesa de Encantamento"></a>
+                </div>
+                <div class="item" style="--i: 3">
+                    <a href="#"><img src="img/fornalha.png" alt="Fornalha"></a>
+                </div>
+                <div class="item" style="--i: 4">
+                    <a href="#"><img src="img/craftingtable.png" alt="Bancada de Trabalho"></a>
+                </div>
+            </div>
+            <button id="antes">></button>
+            <button id="depois"><</button>
+        </div>
+    </section>
+
+    <section class="favorites">
+     <div class="carousel">
+    <div class="card__mobs">
+    <a class="show-mob" href="#"
+       data-title="Raposa" 
+       data-subtitle="Informações gerais:"
+       data-text="Onde nasce: Taiga, taiga nevada e tundra, em grupos de 2–4. -- 
+       Como domesticar: Não podem ser domesticadas, mas filhotes criados perto de jogadores não fogem. Use bagas doces para atraí-las. -- 
+       Como procriar: Alimente duas raposas com bagas doces para gerar um filhote (herda confiança nos jogadores). -- 
+       O que faz: Roubam itens soltos e os guardam na boca. Dormem à noite. -- 
+       O que dropa: 1–2 bagas doces, 1–3 exp."
+       data-img="img/raposa.png">
+        <img src="img/raposa.png" alt="Raposa Minecraft" />
+    </a>
+    <h3>Raposa</h3>
+</div>
+<div class="card__mobs">
+    <a class="show-mob" href="#"
+       data-title="Gato" 
+       data-subtitle="Informações gerais:"
+       data-text="Onde nasce: Vilas de todos os biomas, inclusive as abandonadas. -- 
+       Como domesticar: Alimente com peixe cru (bacalhau ou salmão) até ganhar confiança. -- 
+       Como procriar: Alimente dois gatos com peixe cru para gerar um gatinho. -- 
+       O que faz: Afasta Phantoms e Creeepers. Pode ficar sentado para não seguir. Oferece presentes (como fitas ou penas) ao dono pela manhã. -- 
+       O que dropa: 1–3 exp."
+       data-img="img/gato.png">
+        <img src="img/gato.png" alt="Gato Minecraft" />
+    </a>
+    <h3>Gato</h3>
+</div>
+<div class="card__mobs">
+    <a class="show-mob" href="#"
+       data-title="Abelha" 
+       data-subtitle="Informações gerais:"
+       data-text="Onde nasce: Biomas de floresta de flores ou perto de colmeias naturais. -- 
+       Como domesticar: Plante flores para atraí-las. Use favo de mel ou garrafa de mel para reprodução. -- 
+       Como procriar: Alimente duas abelhas com flores para gerar um abelhão. -- 
+       O que faz: Polinizam flores e produzem mel. Ficam agressivas se a colmeia for quebrada ou se forem atacadas. -- 
+       O que dropa: 1–3 exp."
+       data-img="img/abelha.png">
+        <img src="img/abelha.png" alt="Abelha Minecraft" />
+    </a>
+    <h3>Abelha</h3>
+</div>
+<div class="card__mobs">
+    <a class="show-mob" href="#"
+       data-title="Lobo" 
+       data-subtitle="Informações gerais:"
+       data-text="Onde nasce: Florestas, taigas, biomas nevados e biomas de mesa, em grupos de 1–4. -- 
+       Como domesticar: Alimente com ossos até aparecerem corações e uma coleira vermelha. -- 
+       Como procriar: Alimente dois lobos domesticados com qualquer tipo de carne (exceto peixe) para gerar um filhote. -- 
+       O que faz: Defende o jogador, atacando mobs que o ferirem. Pode ficar sentado para não seguir. Se selvagens, atacam ovelhas. --
+       O que dropa: 0–2 ossos (apenas lobos selvagens), 1–3 exp."
+       data-img="img/lobo.png">
+        <img src="img/lobo.png" alt="Lobo Minecraft" />
+    </a>
+    <h3>Lobo</h3>
+</div>
+<div class="card__mobs">
+    <a class="show-mob" href="#"
+       data-title="Panda" 
+       data-subtitle="Informações gerais:"
+       data-text="Onde nasce: Florestas de bambu, em grupos raros. -- 
+       Como domesticar: Não são domesticáveis, mas podem ser atraídos com bambu. -- 
+       Como procria: Alimente dois pandas com bambu para gerar um filhote (pode herdar traços especiais). -- 
+       O que faz: Rolam e comem bambu. Pandas fracos espirram, e agressivos atacam se provocados. -- 
+       O que dropa: 0–2 bambu, 1–3 exp."
+       data-img="img/panda.png">
+        <img src="img/panda.png" alt="Panda Minecraft" />
+    </a>
+    <h3>Panda</h3>
+</div>
+<div class="card__mobs">
+    <a class="show-mob" href="#"
+       data-title="Lhama" 
+       data-subtitle="Informações gerais:"
+       data-text="Onde nasce: Savanas e montanhas, em grupos de 4–6, ou geradas por vendedores ambulantes. --
+       Como domesticar: Monte em cima da lhama para domesticá-la, não pode ser controlada. Use tapetes no inventário da lhama para customizar seu visual. -- 
+       Como procriar: Alimente duas lhamas com fardos de feno para gerar um filhote. -- 
+       O que faz: Atacam cuspidas se provocadas. Podem ser equipadas com baús para armazenar itens. 
+       O que dropa: 0–2 couro, 1–3 exp."
+       data-img="img/lhama.png">
+        <img src="img/lhama.png" alt="Lhama Minecraft" />
+    </a>
+    <h3>Lhama</h3>
+</div>
+<div class="card__mobs">
+    <a class="show-mob" href="#"
+       data-title="Axolote" 
+       data-subtitle="Informações gerais:"
+       data-text="Onde nasce: No Lush Caves (cavernas com água e blocos de clay). -- 
+       Como domesticar: Use um balde para capturá-lo. Solte-o em água e ele seguirá você se segurar um balde com peixe tropical. -- 
+       Como procriar: Alimente dois axolotes com baldes com peixes tropicais para gerar um filhote. --
+       O que faz: Ataca mobs aquáticos. -- 
+       O que dropa: 1–3 exp."
+       data-img="img/axolote.png">
+        <img src="img/axolote.png" alt="Axolote Minecraft" />
+    </a>
+    <h3>Axolote</h3>
+</div>
+</div>
+    <div class="popup-container">
+    <div class="popup-box">
+        <button class="close-btn">X</button>
+        <h1 id="popup-title">.</h1>
+        <h2 id="popup-subtitle">.</h2>
+        <p id="popup-text">.</p>
+        <img id="popup-image" src="img/raposa.png" alt="Imagem do Mob">
+    </div>
+</div>
+
+        </div>
+    </div>
+</section>
+
+
+    <footer id="rodape" class="informaçoes" aria-label="Seção de direitos reservados">
+    <div class="copyright">
+    <p>© 2025 MineDex. Todos os direitos reservados.</p>
+  </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
