@@ -19,7 +19,6 @@
 }
 
 html {
-    font-size: 62.5%;
     scroll-behavior: smooth;
     scroll-padding-top: 6rem;
     overflow-x: hidden;
@@ -79,10 +78,6 @@ header {
   border-color: transparent transparent rgb(93, 92, 92) transparent;
 }
 
-.popup-message p{
-    font-size: 13px;
-}
-
 .popup-trigger:hover ~ .popup-message {
   opacity: 1;
   visibility: visible;
@@ -93,7 +88,6 @@ header button{
     background-color: #7CFC00;
     color: white;
     font-family: 'Outfit', sans-serif;
-    font-size: 15px;
     border: none;
     border-radius: 5px;
     padding: 2px;
@@ -250,7 +244,6 @@ header button{
     max-width: 600px;
     color: rgb(221, 221, 221);
     margin-left: 180px;
-    font-size: 20px;
     background: #5f5f5f6e;
     padding: 40px;
 }
@@ -276,7 +269,6 @@ header button{
 
 .informação span {
     font-weight: bold;
-    font-size: 25px;
     color: var(--verde-creeper);
     font-family: "Anton", sans-serif;
 }
@@ -324,7 +316,6 @@ header button{
 .craftings__titulo{
     display: flex;
     color: white;
-    font-size: 50px;
     align-content: center;
     text-align: center;
     justify-content: center;
@@ -357,12 +348,10 @@ header button{
     max-height: 80%;
     overflow-y: auto;
     padding-bottom: 20px;
-    font-size: large;
 }
 
 .conteudo h1{
     color: var(--verde-creeper);
-    font-size: xx-large;
 }
 
 .conteudo .item{
@@ -428,7 +417,6 @@ header button{
     border: none;
     top: 40%;
     left: 50px;
-    font-size: 40px;
     background-color: transparent;
     color: white;
     font-weight: bold;
@@ -487,7 +475,6 @@ header button{
 }
 
 .favorites h3 {
-    font-size: 20px;
     margin-top: 10px;
 }
 
@@ -536,14 +523,12 @@ header button{
 
 .popup-box h1 {
     color: var(--verde-creeper);
-    font-size: 30px;
     margin-bottom: 10px;
     line-height: 1;
 }
 
 .popup-box h2 {
     color: var(--verde-creeper);
-    font-size: 25px;
     line-height: 1;
 }
 
@@ -551,7 +536,7 @@ header button{
     color: white;
     margin-top: 0px;
     margin-left: 15px;
-    font-size: 20px;
+    font-size: 20px
     text-align: justify;
     width: 740px;
 }
@@ -585,7 +570,6 @@ header button{
     border-radius: 6px;
     border: none;
     outline: none;
-    font-size: 18px;
     color: white;
     font-weight: 500;
 }
@@ -597,11 +581,11 @@ footer{
 .copyright p{
     color: white;
     font-family: 'Outfit' sans-serif;
-    font-size: 15px;
     display: flex;
     text-align: center;
     justify-content: center;
     justify-items: center;
 }
+
 
 
