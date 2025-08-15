@@ -17,8 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
     aplicarTamanhoFonte();
 
     aumentaFonteBotao.addEventListener('click', function () {
-        if (tamanhoAtualFonte < 1.5);
-        {
+        if (tamanhoAtualFonte < 1.5);{
             tamanhoAtualFonte += 0.1;
             aplicarTamanhoFonte();
             localStorage.setItem('tamanhoFonte', tamanhoFonteAtual);
@@ -27,13 +26,11 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     diminuiFonteBotao.addEventListener('click', function () {
-        if (tamanhoAtualFonte > 1.8);
-        {
+        if (tamanhoAtualFonte > 0.8);{
             tamanhoAtualFonte -= 0.1;
             aplicarTamanhoFonte();
             localStorage.setItem('tamanhoFonte', tamanhoFonteAtual);
         }
-
     });
 
     function aplicarTamanhoFonte(){
@@ -147,6 +144,7 @@ showMobs.forEach((mob) => {
 closeBtn.addEventListener("click", () => {
     popupContainer.classList.remove("active");
 });
+
 
 
 
