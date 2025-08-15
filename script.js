@@ -13,29 +13,19 @@ document.addEventListener('DOMContentLoaded', function() {
     const aumentaFonteBotao = document.getElementById('aumentar-fonte');
     const diminuiFonteBotao = document.getElementById('diminuir-fonte');
 
-    let tamanhoAtualFonte = parseFloat(localStorage.getItem('tamanhoFonte')) || 1;
-    aplicarTamanhoFonte();
+    let tamanhoAtualFonte = 1;
 
     aumentaFonteBotao.addEventListener('click', function () {
-        if (tamanhoAtualFonte < 1.5);{
-            tamanhoAtualFonte += 0.1;
-            aplicarTamanhoFonte();
-            localStorage.setItem('tamanhoFonte', tamanhoFonteAtual);
-        }
+        tamanhoAtualFonte += 0.1;
+        document.body.style.fontSize = `${tamanhoAtualFonte}rem`
 
-    });
+    })
 
     diminuiFonteBotao.addEventListener('click', function () {
-        if (tamanhoAtualFonte > 0.8);{
-            tamanhoAtualFonte -= 0.1;
-            aplicarTamanhoFonte();
-            localStorage.setItem('tamanhoFonte', tamanhoFonteAtual);
-        }
-    });
+        tamanhoAtualFonte -= 0.1;
+        document.body.style.fontSize = `${tamanhoAtualFonte}rem`
 
-    function aplicarTamanhoFonte(){
-        document.documentElement.style.fontSize = `${tamanhoAtualFonte}rem`;
-    }    
+    })  
 
     alternaContraste.addEventListener('click', function(){
         document.body.classList.toggle('alto-contraste')
@@ -144,6 +134,7 @@ showMobs.forEach((mob) => {
 closeBtn.addEventListener("click", () => {
     popupContainer.classList.remove("active");
 });
+
 
 
 
